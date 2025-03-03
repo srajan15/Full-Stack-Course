@@ -1,0 +1,83 @@
+1. Font Formatting in HTML
+💡 Exercise: Create a webpage that includes:
+
+A bold title
+A paragraph with italic and underlined text
+A sentence with different font colors
+
+Display six different headings (<h1> to <h6>).
+
+3. Using Different Colors in HTML
+💡 Exercise: Display text in different colors.
+
+4. Comments in HTML
+💡 Exercise: Add comments in an HTML document.
+
+5. Hyperlinks in HTML
+💡 Exercise: Create a link to another webpage and an external website.
+
+6. Image in HTML
+💡 Exercise: Display an image on a webpage.
+
+7. Table in HTML
+💡 Exercise: Create a simple table.
+
+9. Lists in HTML
+💡 Exercise: Create numbered, bulleted, and description lists.
+
+10. Form in HTML
+💡 Exercise: Create a basic login form.
+
+11. Checkbox, Radio Button, and Drop-down List
+💡 Exercise: Create form controls.
+
+12. Textarea for Feedback
+💡 Exercise: Create a feedback form.
+
+<table border="1">
+  <tr>
+    <th rowspan="2">Product Name</th>
+    <th colspan="2">Specifications</th>
+    <th rowspan="2">Price</th>
+  </tr>
+  <tr>
+    <th>Category</th>
+    <th>Brand</th>
+  </tr>
+  <tr>
+    <td>Smartphone</td>
+    <td>Electronics</td>
+    <td>Samsung</td>
+    <td>$699</td>
+  </tr>
+  <tr>
+    <td>Laptop</td>
+    <td>Computers</td>
+    <td>Dell</td>
+    <td>$999</td>
+  </tr>
+  <tr>
+    <td>Headphones</td>
+    <td>Accessories</td>
+    <td>Boat</td>
+    <td>$49</td>
+  </tr>
+</table>
+
+<ul>
+    <li>Fruits
+        <ol>
+            <li>Apple</li>
+            <li>Banana</li>
+            <li>Grapes</li>
+        </ol>
+    </li>
+    <li>Vegetables
+        <ol>
+            <li>Carrot</li>
+            <li>Spinach</li>
+            <li>Potato</li>
+        </ol>
+    </li>
+</ul>
+
