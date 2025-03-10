@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>lorem ipsum</h1>
+    <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
+    <h1 id="imp">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, sed.
+    </h1>
+    <p class="para">
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium unde
+      suscipit facere perspiciatis nihil placeat, alias impedit! Doloremque
+      laudantium quo sunt obcaecati consectetur. Dignissimos, tempora.
+    </p>
+    <button id="btn">Click me</button>
+
+    <script>
+      const heading = (document.querySelector("#imp").textContent =
+        "<h1><b>hello</b></h1>");
+      const btn = document.getElementById("btn");
+      btn.addEventListener("mouseover", fn);
+      function fn() {
+        alert("you have clicked");
+      }
+    </script>
+  </body>
+</html>
