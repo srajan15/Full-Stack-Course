@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary justify-content-end">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-disabled="true">Disabled</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container-fluid vh-100">
+      <div class="row align-items-center h-100">
+        <div class="col-md-6">
+          <div class="hero">
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa
+              assumenda nostrum aspernatur delectus non aperiam ipsum cupiditate
+              nesciunt architecto, fugit illo, expedita qui, suscipit nihil.
+            </p>
+            <div class="btn btn-primary">Know more</div>
+          </div>
+        </div>
+        <div class="col-md-6 mx-auto w-50">
+          <img class="w-100 mx-auto" src="image/hero.png" alt="" />
+        </div>
+      </div>
+    </div>
+    <div class="container py-5">
+      <div
+        id="testimonialCarousel"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="testimonial-card p-5 position-relative mx-3">
+              <div class="quote-icon">"</div>
+              <div class="row align-items-center">
+                <div class="col-md-4 text-center">
+                  <img
+                    src="https://randomuser.me/api/portraits/women/80.jpg"
+                    class="avatar mb-3"
+                    alt="User Avatar"
+                  />
+                  <h5 class="mb-1">Sarah Johnson</h5>
+                  <p class="text-muted mb-0">Product Designer</p>
+                </div>
+                <div class="col-md-8">
+                  <p class="lead mb-0">
+                    "The attention to detail and the quality of the product
+                    exceeded my expectations. The team was professional and
+                    delivered exactly what I needed."
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="testimonial-card p-5 position-relative mx-3">
+              <div class="quote-icon">"</div>
+              <div class="row align-items-center">
+                <div class="col-md-4 text-center">
+                  <img
+                    src="https://randomuser.me/api/portraits/women/81.jpg"
+                    class="avatar mb-3"
+                    alt="User Avatar"
+                  />
+                  <h5 class="mb-1">Michael Chen</h5>
+                  <p class="text-muted mb-0">Software Engineer</p>
+                </div>
+                <div class="col-md-8">
+                  <p class="lead mb-0">
+                    "Working with this team has been an absolute pleasure. Their
+                    technical expertise and communication skills are
+                    outstanding."
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-indicators position-relative mt-4">
+          <button
+            type="button"
+            class="custom-indicator active"
+            data-bs-target="#testimonialCarousel"
+            data-bs-slide-to="0"
+            aria-label="Slide 1"
+            aria-current="true"
+          ></button>
+          <button
+            type="button"
+            class="custom-indicator"
+            data-bs-target="#testimonialCarousel"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+        </div>
+      </div>
+      <div
+        id="testimonialCarousel"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item">
+            <div class="testimonial-card p-5 position-relative mx-3">
+              <div class="quote-icon">"</div>
+              <div class="row align-items-center">
+                <div class="col-md-4 text-center">
+                  <img
+                    src="https://randomuser.me/api/portraits/women/80.jpg"
+                    class="avatar mb-3"
+                    alt="User Avatar"
+                  />
+                  <h5 class="mb-1">Sarah Johnson</h5>
+                  <p class="text-muted mb-0">Product Designer</p>
+                </div>
+                <div class="col-md-8">
+                  <p class="lead mb-0">
+                    "The attention to detail and the quality of the product
+                    exceeded my expectations. The team was professional and
+                    delivered exactly what I needed."
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item active">
+            <div class="testimonial-card p-5 position-relative mx-3">
+              <div class="quote-icon">"</div>
+              <div class="row align-items-center">
+                <div class="col-md-4 text-center">
+                  <img
+                    src="https://randomuser.me/api/portraits/women/81.jpg"
+                    class="avatar mb-3"
+                    alt="User Avatar"
+                  />
+                  <h5 class="mb-1">Michael Chen</h5>
+                  <p class="text-muted mb-0">Software Engineer</p>
+                </div>
+                <div class="col-md-8">
+                  <p class="lead mb-0">
+                    "Working with this team has been an absolute pleasure. Their
+                    technical expertise and communication skills are
+                    outstanding."
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-indicators position-relative mt-4">
+          <button
+            type="button"
+            class="custom-indicator"
+            data-bs-target="#testimonialCarousel"
+            data-bs-slide-to="0"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            class="custom-indicator active"
+            data-bs-target="#testimonialCarousel"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+            aria-current="true"
+          ></button>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

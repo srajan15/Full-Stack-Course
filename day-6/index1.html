@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="" />
+  </head>
+  <body>
+    <h1 id="heading"></h1>
+    <div class="para">Lorem ipsum dolor sit amet.</div>
+    <h3>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem ipsum dolor
+      sit amet consectetur adipisicing elit. Animi et similique sit error
+      dolorem, quis quam atque, modi accusamus totam reprehenderit unde, impedit
+      nobis. Vero..
+    </h3>
+
+    <script>
+      // let arr = [5, "hello", "8"];
+      // let age = 8;
+
+      // let obj1 = {
+      //   name: "mob",
+      //   age: 8,
+      //   details: "my name is MOb and i am learning full stack",
+      // };
+      // let obj4 = {
+      //   name: "noah",
+      //   age: 18,
+      //   details: "my name is MOb and i am learning full stack",
+      // };
+
+      // function Person(name, age, details) {
+      //   this.name = name;
+      //   this.age = age;
+      //   this.details = details;
+      // }
+      // console.log(typeof Person);
+      // let obj = new Person("mob", 25, "i am full stack dev");
+      // let obj2 = new Person("noah", 22, "i am not full stack dev");
+      // let obj5 = new Person("vishal", 28, "i am sde");
+      // console.log(obj);
+      // console.log(obj2);
+      // console.log(obj5);
+      function fn1() {
+        console.log("one");
+        fn2();
+      }
+      function fn2() {
+        console.log("two");
+        fn3();
+      }
+      setInterval(function () {
+        console.log("this run every 1 sec");
+      }, 1000);
+
+      function fn3() {
+        console.log("four");
+      }
+      fn1();
+    </script>
+  </body>
+</html>
